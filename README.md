@@ -2,6 +2,8 @@
 
 Built using the Mule SDK, this is a Mule 4 extension that generates a PDF from a Microsoft \*.docx file or from an image file (\*.png, \*.jpg, \*.tif).
 
+<img src="https://github.com/djuang1/djuang1.github.io/blob/master/img/pdf-generator-extension/pdf-generator-flow-example.png?raw=true" width="600px">
+
 ### Exmple Project
 
 An example project can be found [here](https://github.com/djuang1/pdf-generator-example-mule4)
