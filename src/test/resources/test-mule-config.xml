@@ -1,0 +1,11 @@
+<mule xmlns="http://www.mulesoft.org/schema/mule/core"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:pdf-generator="http://www.mulesoft.org/schema/mule/pdf-generator"
+      xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+          http://www.mulesoft.org/schema/mule/pdf-generator http://www.mulesoft.org/schema/mule/pdf-generator/current/mule-pdf-generator.xsd">
+
+    <flow name="docxToPDFFlow">
+        <pdf-generator:docx-to-pdf/>
+    </flow>
+
+</mule>
